@@ -2,6 +2,10 @@
 import os
 import logging
 from dataclasses import dataclass, field
+from dotenv import load_dotenv
+
+# Load environment variables from .env if present
+load_dotenv()
 
 
 @dataclass
